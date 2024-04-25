@@ -1,0 +1,5 @@
+localization_en/
+localization_en_shared/
+DataTables/
+node_modules/
+*.csv
