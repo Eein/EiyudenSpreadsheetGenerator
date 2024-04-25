@@ -1,3 +1,12 @@
+# Tools used
+- AssetStudio.net for extracting bundles
+- `grep -lr "Whatever"` to find specific things
+
+# Notable Files To Extract
+- `localization-assets-shared_assets_all.bundle` Shared Data (ID <-> Localization Mapping)
+- `localization-string-tables-english(en)_assets_all.bundle` Locale Data
+- `dc45330cf35da75eac71f243c0f8c2fd.bundle` Data Tables (includes enemy params)
+
 # Setup
 - Copy `DataTables` to root of probject
 - Copy `localization_en` to root of project
