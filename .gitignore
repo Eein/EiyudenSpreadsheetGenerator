@@ -1,5 +1,5 @@
-localization_en/
-localization_en_shared/
-DataTables/
+game_data/*
 node_modules/
-*.csv
+output/csv/*
+output/json/*
+output/md/*
