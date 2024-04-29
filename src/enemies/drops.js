@@ -1,6 +1,6 @@
 import EnemyDropItemTables from '../../game_data/DataTables/EnemyDropItemTable.json' assert { type: 'json' };
 
-import items from '../../output/json/items.json' assert { type: 'json' };
+import items from '../items/items.js';
 
 export default function getDrops(enemyId) {
   const drops_entries = EnemyDropItemTables.list.filter(item => item._enemyId == enemyId);

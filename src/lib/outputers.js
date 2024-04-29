@@ -26,6 +26,14 @@ export function writeJSON(_filename, data) {
   })
 }
 
+export function writeMarkdown(_filename, str) {
+  const filename = path.resolve(process.cwd(), 'output', 'md', `${_filename}.md`);
+  writeFileSync(filename, str, err => {
+    if (err) throw err
+    console.log("file saved: ", filename)
+  })
+}
+
 export function writeFiles(_filename, data) {
   writeCSV(_filename, data);
   writeJSON(_filename, data);

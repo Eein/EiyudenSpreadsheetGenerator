@@ -1,5 +1,5 @@
 import LibraryEnemyTable from '../../game_data/DataTables/LibraryEnemyTable.json' assert { type: 'json' };
-import enemies from '../../output/json/enemies.json' assert { type: 'json' };
+import enemies from '../enemies/enemies.js';
 
 import { getArea, getDetail } from './locale.js';
 import { getWeakness } from './weakness.js';
